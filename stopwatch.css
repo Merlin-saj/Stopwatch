@@ -1,0 +1,38 @@
+body{
+    background-image: url("stop.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.wrapper{
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 28px;
+    border-radius: 30px;
+    letter-spacing: 4px;
+}
+button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 18px 18px;
+    width: 100px;
+    margin: 10px;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+}
+
+#seconds,#tens{
+    font-size: 50px;
+}
